@@ -1,0 +1,8 @@
+type Query {
+  hello: String
+  viewer: User
+}
+
+type User {
+  name: String
+}

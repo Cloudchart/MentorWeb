@@ -1,0 +1,14 @@
+---
+  layout: layout/main.dot
+  title:  Register
+---
+
+[[##content:
+  <header>
+    <h1>Register</h1>
+  </header>
+  <main>
+    <section data-react-class="register-app">
+    </section>
+  </main>
+#]]

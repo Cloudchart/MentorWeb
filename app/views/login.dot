@@ -1,0 +1,14 @@
+---
+  layout: layout/main.dot
+  title:  Login
+---
+
+[[##content:
+  <header>
+    <h1>Login</h1>
+  </header>
+  <main>
+    <section data-react-class="login-app">
+    </section>
+  </main>
+#]]

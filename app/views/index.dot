@@ -1,0 +1,9 @@
+---
+  layout: layout/main.dot
+  title:  Index
+---
+
+[[##content:
+  <article className="index" data-relay-class="landing-app" data-relay-route="viewer-route">
+  </article>
+#]]
