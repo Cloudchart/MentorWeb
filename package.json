@@ -1,7 +1,8 @@
 {
   "name": "web-app-mentor",
   "version": "1.0.0",
-  "description": "",
+  "description": "Mentor Web App",
+  "repository": "git@github.com:Cloudchart/MentorWeb.git",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -24,7 +25,7 @@
     "dot": "^1.0.3",
     "express": "^4.13.3",
     "express-dot-engine": "^1.0.7",
-    "express-graphql": "^0.3.0",
+    "express-graphql": "^0.4.0",
     "express-session": "^1.11.3",
     "extract-text-webpack-plugin": "^0.8.2",
     "graphql": "^0.4.4",
