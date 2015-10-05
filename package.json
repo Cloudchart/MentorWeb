@@ -15,6 +15,7 @@
     "shipit-deploy": "^2.0.0"
   },
   "dependencies": {
+    "algoliasearch": "^3.8.1",
     "babel": "^5.8.23",
     "babel-loader": "^5.3.2",
     "babel-relay-plugin": "^0.2.6",
@@ -30,6 +31,7 @@
     "extract-text-webpack-plugin": "^0.8.2",
     "graphql": "^0.4.4",
     "graphql-relay": "^0.3.2",
+    "immutable": "^3.7.5",
     "isomorphic-fetch": "^2.1.1",
     "morgan": "^1.6.1",
     "mysql": "^2.9.0",

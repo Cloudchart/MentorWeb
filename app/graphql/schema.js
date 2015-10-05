@@ -7,6 +7,8 @@ import {
 
 import userType from './user_type'
 
+import AddDefaultThemesToViewer from './mutations/add_default_themes_to_viewer'
+
 
 let queryType = new GraphQLObjectType({
 
@@ -31,6 +33,18 @@ let queryType = new GraphQLObjectType({
 })
 
 
+let mutationType = new GraphQLObjectType({
+
+  name: 'Mutation',
+
+  fields: () => ({
+    addDefaultThemesToViewer: AddDefaultThemesToViewer
+  })
+
+})
+
+
 export default new GraphQLSchema({
-  query: queryType
+  query:      queryType,
+  mutation:   mutationType
 })

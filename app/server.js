@@ -9,8 +9,8 @@ import path       from 'path'
 
 import graphqlHTTP  from 'express-graphql'
 
-import db       from './models/database'
-import schema   from './graphql/schema'
+import db             from './models/database'
+import schema         from './graphql/schema'
 
 import router       from  './router'
 import auth_router  from './routes/auth'

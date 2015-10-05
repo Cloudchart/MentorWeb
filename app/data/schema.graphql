@@ -1,8 +1,32 @@
+input AddDefaultThemesToViewerInput {
+  themes_ids: [ID]
+  clientMutationId: String!
+}
+
+type AddDefaultThemesToViewerPayload {
+  themes: [ID]
+  clientMutationId: String!
+}
+
+type Mutation {
+  addDefaultThemesToViewer(input: AddDefaultThemesToViewerInput!): AddDefaultThemesToViewerPayload
+}
+
 type Query {
   hello: String
   viewer: User
 }
 
-type User {
+type Theme {
+  id: ID
   name: String
+  is_system: Boolean
+  is_default: Boolean
+}
+
+type User {
+  id: ID
+  name: String
+  default_themes: [Theme]
+  themes: [Theme]
 }

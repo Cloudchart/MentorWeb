@@ -10,7 +10,7 @@ module.exports = {
   },
   module: {
     loaders: [
-      { test: /\.js$/, loader: 'babel', query: { stage: 0, plugins: ['./app/babel-relay-plugin'] } },
+      { test: /\.js$/, exclude: /node_modules/, loader: 'babel', query: { stage: 0, plugins: ['./app/babel-relay-plugin'] } },
       { test: /\.scss$/, loader: ExtractTextPlugin.extract('style', 'css!sass') }
     ]
   },

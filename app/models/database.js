@@ -10,7 +10,7 @@ let sequelize = new Sequelize(config.database, config.username, config.password,
 
 ;
 
-['user', 'auth_token'].forEach(name => {
+['user', 'auth_token', 'theme'].forEach(name => {
   let model = sequelize.import(path.join(__dirname, name + '.js'))
   db[model.name] = model
 })
