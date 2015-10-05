@@ -20,7 +20,7 @@
     "babel-relay-plugin": "^0.2.6",
     "bcryptjs": "^2.3.0",
     "body-parser": "^1.14.1",
-    "connect-redis": "^2.5.1",
+    "connect-redis": "^3.x",
     "css-loader": "^0.19.0",
     "dot": "^1.0.3",
     "express": "^4.13.3",
